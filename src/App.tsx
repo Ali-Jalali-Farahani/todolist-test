@@ -26,7 +26,7 @@ const App:React.FC=():React.ReactNode=>{
       </div>
       <div id='show-todos'>
         {todos.map((todo)=>(
-          <div>
+          <div key={todo.id}>
             {todo.todoName}
           </div>
         ))}
