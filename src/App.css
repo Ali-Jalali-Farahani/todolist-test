@@ -7,20 +7,16 @@
   align-items: center;
 }
 
-#todo-input{
+#Todo-input{
   height: 27%;
-  width: 33%;
+  width: 50%;
+  font-size:28px;
 }
 
-#todo-submit{
+#Todo-submit{
   height: 29%;
   width: fit-content;
-  font-size: large;
-}
-
-#show-todos{
-  height: 50%;
-  background-color: lightpink;
+  font-size: 22px;
 }
 
 #show-todos{
